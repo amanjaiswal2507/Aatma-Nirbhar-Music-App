@@ -1,0 +1,367 @@
+html,body{
+    margin:10px;
+    
+    width:100%;
+}
+body{
+    background: black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+a{
+    margin:10px;
+    padding: 10px;
+    color: red;
+}
+
+#a1{
+    text-shadow: 1px 1px yellow;
+}
+#a2{
+    text-shadow: 1px 1px aliceblue;
+}
+#a3{
+    text-shadow : 1px 1px blueviolet;
+}
+#a4{
+    text-shadow : 1px 1px blanchedalmond;
+}
+#a5{
+    text-shadow : 1px 1px brown;
+}
+#a6{
+    text-shadow : 1px 1px burlywood;
+}
+#a7{
+    text-shadow : 1px 1px cadetblue;
+}
+#a8{
+    text-shadow : 1px 1px chartreuse;
+}
+#a9{
+    text-shadow : 1px 1px chocolate;
+}
+#a10{
+    text-shadow : 1px 1px coral;
+}
+#a11{
+    text-shadow : 1px 1px cornflowerblue;
+}
+#a12{
+    text-shadow : 1px 1px cornsilk;
+}
+#a13{
+    text-shadow : 1px 1px crimson;
+}
+#a14{
+    text-shadow : 1px 1px cyan;
+}
+#a15{
+    text-shadow : 1px 1px springgreen;
+}
+#a16{
+    text-shadow : 1px 1px darkblue;
+}
+#a17{
+    text-shadow : 1px 1px darkcyan;
+}
+#a18{
+    text-shadow : 1px 1px darkgray;
+}
+#a19{
+    text-shadow : 1px 1px darkgreen;
+}
+#a20{
+    text-shadow : 1px 1px darkkhaki;
+}
+#a21{
+    text-shadow : 1px 1px darkmagenta;
+}
+#a22{
+    text-shadow : 1px 1px darkolivegreen;
+}
+#a23{
+    text-shadow : 1px 1px darkorange;
+}
+#a24{
+    text-shadow : 1px 1px darkorchid;
+}
+#a25{
+    text-shadow : 1px 1px darkred;
+}
+#a26{
+    text-shadow : 1px 1px darksalmon;
+}
+#a27{
+    text-shadow : 1px 1px darkseagreen;
+}
+#a28{
+    text-shadow : 1px 1px darkslateblue;
+}
+#a29{
+    text-shadow : 1px 1px darkslategray;
+}
+#a30{
+    text-shadow : 1px 1px deeppink;
+}
+#a31{
+    text-shadow : 1px 1px deepskyblue;
+}
+#a32{
+    text-shadow : 1px 1px dodgerblue;
+}
+#a33{
+    text-shadow : 1px 1px forestgreen;
+}
+#a34{
+    text-shadow : 1px 1px gold;
+}
+#a35{
+    text-shadow : 1px 1px greenyellow;
+}
+#a36{
+    text-shadow : 1px 1px ghostwhite;
+}
+#a37{
+    text-shadow : 1px 1px honeydew;
+}
+#a38{
+    text-shadow : 1px 1px indigo;
+}
+#a39{
+    text-shadow : 1px 1px indianred;
+}
+#a40{
+    text-shadow : 1px 1px khaki;
+}
+#a41{
+    text-shadow : 1px 1px lavenderblush;
+}
+#a42{
+    text-shadow : 1px 1px lawngreen;
+}
+#a43{
+    text-shadow : 1px 1px lightgoldenrodyellow;
+}
+#a44{
+    text-shadow : 1px 1px lightyellow;
+}
+#a45{
+    text-shadow : 1px 1px maroon;
+}
+#a46{
+    text-shadow : 1px 1px mediumseagreen;
+}
+#a47{
+    text-shadow : 1px 1px navy;
+}
+#a48{
+    text-shadow : 1px 1px olive;
+}
+#a49{
+    text-shadow : 1px 1px orangered;
+}
+#a50{
+    text-shadow : 1px 1px peru;
+}
+#a51{
+    text-shadow : 1px 1px palevioletred;
+}
+#a52{
+    text-shadow : 1px 1px red;
+}
+#a53{
+    text-shadow : 1px 1px rgba(255,255,255,0.2);
+}
+#a54{
+    text-shadow : 1px 1px sienna;
+}
+#a55{
+    text-shadow : 1px 1px snow;
+}
+
+
+
+
+
+#a1:hover{
+    color: 2px 2px blue;
+}
+#a2:hover{
+    color: 2px 2px aliceblue;
+}
+#a3:hover{
+    color: 2px 2px blueviolet;
+}
+#a4:hover{
+    color: 2px 2px blanchedalmond;
+}
+#a5:hover{
+    color: 2px 2px brown;
+}
+#a6:hover{
+    color: 2px 2px burlywood;
+}
+#a7:hover{
+    color: 2px 2px cadetblue;
+}
+#a8:hover{
+    color: 2px 2px chartreuse;
+}
+#a9:hover{
+    color: 2px 2px chocolate;
+}
+#a10:hover{
+    color: 2px 2px coral;
+}
+#a11:hover{
+    color: 2px 2px cornflowerblue;
+}
+#a12:hover{
+    color: 2px 2px cornsilk;
+}
+#a13:hover{
+    color: 2px 2px crimson;
+}
+#a14:hover{
+    color: 2px 2px cyan;
+}
+#a15:hover{
+    color: 2px 2px springgreen;
+}
+#a16:hover{
+    color: 2px 2px darkblue;
+}
+#a17:hover{
+    color: 2px 2px darkcyan;
+}
+#a18:hover{
+    color: 2px 2px darkgray;
+}
+#a19:hover{
+    color: 2px 2px darkgreen;
+}
+#a20:hover{
+    color: 2px 2px darkkhaki;
+}
+#a21:hover{
+    color: 2px 2px darkmagenta;
+}
+#a22:hover{
+    color: 2px 2px darkolivegreen;
+}
+#a23:hover{
+    color: 2px 2px darkorange;
+}
+#a24:hover{
+    color: 2px 2px darkorchid;
+}
+#a25:hover{
+    color: 2px 2px darkred;
+}
+#a26:hover{
+    color: 2px 2px darksalmon;
+}
+#a27:hover{
+    color: 2px 2px darkseagreen;
+}
+#a28:hover{
+    color: 2px 2px darkslateblue;
+}
+#a29:hover{
+    color: 2px 2px darkslategray;
+}
+#a30:hover{
+    color: 2px 2px deeppink;
+}
+#a31:hover{
+    color: 2px 2px deepskyblue;
+}
+#a32:hover{
+    color: 2px 2px dodgerblue;
+}
+#a33:hover{
+    color: 2px 2px forestgreen;
+}
+#a34:hover{
+    color: 2px 2px gold;
+}
+#a35:hover{
+    color: 2px 2px greenyellow;
+}
+#a36:hover{
+    color: 2px 2px ghostwhite;
+}
+#a37:hover{
+    color: 2px 2px honeydew;
+}
+#a38:hover{
+    color: 2px 2px indigo;
+}
+#a39:hover{
+    color: 2px 2px indianred;
+}
+#a40:hover{
+    color: 2px 2px khaki;
+}
+#a41:hover{
+    color: 2px 2px lavenderblush;
+}
+#a42:hover{
+    color: 2px 2px lawngreen;
+}
+#a43:hover{
+    color: 2px 2px lightgoldenrodyellow;
+}
+#a44:hover{
+    color: 2px 2px lightyellow;
+}
+#a45:hover{
+    color: 2px 2px maroon;
+}
+#a46:hover{
+    color: 2px 2px mediumseagreen;
+}
+#a47:hover{
+    color: 2px 2px navy;
+}
+#a48:hover{
+    color: 2px 2px olive;
+}
+#a49:hover{
+    color: 2px 2px orangered;
+}
+#a50:hover{
+    color: 2px 2px peru;
+}
+#a51:hover{
+    color: 2px 2px palevioletred;
+}
+#a52:hover{
+    color: 2px 2px red;
+}
+#a53:hover{
+    color: 2px 2px rgba(255,255,255,0.2);
+}
+#a54:hover{
+    color: 2px 2px sienna;
+}
+#a55:hover{
+    color: 2px 2px snow;
+}
+
+
+
+
+a:hover:before{
+    transform: translate(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;   
+}
+a:hover:after{
+    transform: translate(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s; 
+}
+

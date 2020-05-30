@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background: black;
+}
+
+#BG{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    filter: blur(40px);
+    transition: 1s;
+}
+
+.container{
+    position: absolute;
+    height: 380pt;
+    width: 250pt;
+    margin: auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 8px;
+    box-shadow: 0 0 20px lightgray;
+}
+#thumbnail{
+    position: absolute;
+    width:110%;
+    transition: 1s;
+}
+
+.song-name{
+    position: absolute;
+    height: 120pt;
+    width: 400pt;
+    background: -webkit-linear-gradient(45deg,rgba(255,0,0,1), rgba(255,0,0,1));
+    z-index: 2;
+    top:50%;
+    filter: blur(70px);
+}
+.box{
+    position: absolute;
+    height: 180pt;
+    width: 600pt;
+    background:-webkit-linear-gradient(45deg,rgba(255,0,0,1), rgba(255,0,0,1));
+    z-index:2;
+    bottom: -15%;
+    filter: blur(35px);
+
+}
+.song-title{
+    position: absolute;
+    z-index: 2;
+    color:black;
+    top:60%;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px burlywood;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#pp{
+    position:absolute;
+    height: 60px;
+    width: 60px;
+    bottom:14%;
+    z-index: 2;
+    cursor: pointer;
+
+
+}
+#ns,#ps{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: 15%;
+    z-index: 2;
+
+
+}
+#ns{
+    right: 15%;
+
+}
+#ps{
+    left: 15%;
+    transform: rotate(180deg);
+}
+
+#progressBar{
+    -webkit-appearance: none !important;
+    appearance: none;
+    position: absolute;
+    z-index: 2;
+    height:5px;
+    background: black;
+    bottom: 8%;
+    border-radius: 10px;
+    width: 160pt;
+    outline: none;
+
+}
+#progressBar::-moz-range-thumb{
+    -webkit-appearance: none !important;
+    appearance: none;
+    height: 9px;
+    width: 9px;
+
+    background: transparent;
+    outline: none;
+}
+
+#progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: cadetblue;
+    cursor: pointer;
+}
+
+#progressBar::-moz-range-progress{
+    height: 3px;
+    background-color: darkolivegreen;
+    border-radius: 10px;
+}
